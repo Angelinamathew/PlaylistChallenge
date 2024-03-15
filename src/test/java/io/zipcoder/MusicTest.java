@@ -10,6 +10,8 @@ public class MusicTest {
 
         String[] playlist = {"wheniseeyouagain","borntorun","nothingelsematters","cecelia"};
         Music music = new Music(playlist);
+
+
         Integer startingIndex = 1;
         String selection = "cecelia";
         Integer expected = 2;
